@@ -1,89 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 
 *
 {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Source Code Pro', monospace;
+	list-style: none;
+	text-decoration: none;
 }
 
-body
+.header
 {
-	overflow: hidden;
-}
-
-section
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
 	width: 100%;
-	background: #0e0e0e;
+	height: 80px;
+	display: block;
+	background-color: #363945; 
 }
 
-section .container
+.inner_header
 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0px auto;
 }
 
-section .container h2
+.logo_container
 {
-	position: relative;
-	width: 100%;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 900;
-	color: #222;
-	font-size: 5em;
-	line-height: 0.9em;
-	letter-spacing: 4px;
+	height: 100%;
+	display: table;
+	float: left;
 }
 
-section .container h2 span.text2
+.logo_container h1
 {
-	animation-delay: -0.5s;
-	filter: hue-rotate(225deg); 
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	font-size: 32px;
+	font-weight: 200;
 }
 
-section .container h2 span.text3
+.logo_container h1 span
 {
-	animation-delay: -1s;
-	filter: hue-rotate(225deg); 
+	font-weight: 1000;
 }
 
-section .container h2 span.text4
+.navigation
 {
-	animation-delay: -1.5s;
-	filter: hue-rotate(180deg); 
+	float: right;
+	height: 100%;
 }
 
-section .container h2 span
+.navigation a
 {
-	position: relative;
-	z-index: 1;
-	color: #fff;
-	animation: animate 5s linear infinite;
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
 }
 
-@keyframes animate
+.navigation a li
 {
-	0%,5%,10.1%,15.1%,25.1%,45%,70.1%,90%,100%
-	{
-		color: #222;
-		text-shadow: 0 0 0 #222;
-	}
-	5.1%,10%,15.2%,25%,45.1%,70%,90.1%,95%
-	{
-		color: #fff;
-		text-shadow: 0 0 10px #ff3177,
-					 0 0 20px #ff3177,
-					 0 0 40px #ff3177,
-					 0 0 80px #ff3177,
-					 0 0 160px #ff3177;
-	}
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
 }
