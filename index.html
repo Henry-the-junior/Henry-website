@@ -5,22 +5,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta property="og:title" content="HENRY" />
     <meta property="og:description" content="Hello! This is HENRY's website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
-    <div class="header">
-    	<div class="inner_header">
-    		<div class="logo_container">
-    			<h1>HENRY<span>TSAI</span></h1>
-    		</div>
-
-    		<ul class="navigation">
-    			<a href="https://henry-the-junior.github.io/Henry-website/"><li>HOME</li></a>
-    			<a href="#"><li>ABOUT</li></a>
-    			<a href="#"><li>PROFILE</li></a>
-    			<a href="#"><li>CONTACT</li></a>
-    		</ul>
-    	</div>
-    </div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">HENRY<span>TSAI</span></label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <div class="image">
     	<img src="img/henry.jpg" width="100%">
     </div>
