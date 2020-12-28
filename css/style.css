@@ -225,15 +225,15 @@ a.active,a:hover
 
 .anim-type
 {
-	animation: typewriter 4s steps(30) 1s 1 normal both,
+	animation: typewriter 6s steps(30) 1s infinite normal both,
 	blinkTextCursor 500ms steps(30) infinite normal;
 }
 
 @keyframes typewriter {
-	from {
+	0% {
 		width: 0;
 	}
-	to {
+	60%,100% {
 		width: 26em;
 	}
 }
