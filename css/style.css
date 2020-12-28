@@ -140,7 +140,7 @@ a.active,a:hover
 
 #banner
 {
-	background-image: url("./img/henry.jpg");
+	background-image: url("../img/henry.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: top;
