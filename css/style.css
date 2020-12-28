@@ -140,8 +140,9 @@ a.active,a:hover
 
 #banner
 {
-	background-image: url("https://raw.githubusercontent.com/Henry-the-junior/Henry-website/gh-page/img/henry.jpg");
-	background-size: 100%;
+	background: linear-gradient(rgba(255,255,255,0.5), rgba(133,133, 133,0.5)), 
+				url("https://raw.githubusercontent.com/Henry-the-junior/Henry-website/gh-page/img/henry.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
 	position: relative;
