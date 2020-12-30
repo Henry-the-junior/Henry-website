@@ -112,9 +112,6 @@ a.active,a:hover
 	div.banner-text{
 		padding-top: 150px;
 	}
-	section.banner{
-		height: 80%;
-	}
 }
 
 @media (max-width: 940px)
@@ -169,9 +166,6 @@ a.active,a:hover
 	p.line{
 		font-size: 15px;
 	}
-	section.banner{
-		height: 70%;
-	}
 }
 
 .clearfix::after
@@ -181,7 +175,7 @@ a.active,a:hover
 	clear: both;
 }
 
-.banner
+#banner
 {
 	background-image: linear-gradient(rgba(255,255,255,0.3), rgba(133,133, 133,0.3)), url("https://raw.githubusercontent.com/Henry-the-junior/Henry-website/gh-page/img/henry.jpg");
 	background-size: cover;
@@ -256,5 +250,18 @@ a.active,a:hover
 	}
 	to {
 		border-right-color: transparent;
+	}
+}
+
+@media (max-width: 1032px)
+{
+	#banner{
+		height: 80%;
+	}
+}
+@media (max-width: 820px)
+{
+	#banner{
+		height: 70%;
 	}
 }
