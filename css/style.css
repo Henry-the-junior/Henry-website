@@ -127,6 +127,12 @@ a.active,a:hover
     div.experience-text h2{
 		font-size: 20px;
     }
+    div.contact-text h1{
+		font-size: 25px;
+    }
+    div.contact-text h2{
+		font-size: 20px;
+    }
 }
 
 @media (max-width: 940px)
@@ -199,6 +205,9 @@ a.active,a:hover
     div.experience-text ul li{
 		font-size: 15px;
     }
+    div.contact-text ul li{
+		font-size: 15px;
+    }
 }
 
 @media (max-width: 420px)
@@ -207,6 +216,9 @@ a.active,a:hover
 		font-size: 12px;
 	}
 	div.experience-text ul li{
+		font-size: 12px;
+    }
+    div.contact-text ul li{
 		font-size: 12px;
     }
 }
