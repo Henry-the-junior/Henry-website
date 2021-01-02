@@ -351,6 +351,7 @@ a.active,a:hover
 	font-family: 'Anonymous Pro', monospace;
 	font-size: 25px;
 	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 .experience-text ul
@@ -359,6 +360,51 @@ a.active,a:hover
 }
 
 .experience-text ul li
+{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 20px;
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+#contact
+{
+	background-color: #EEEEEE;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+.contact-text
+{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.contact-text h1
+{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.contact-text h2
+{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.contact-text ul
+{
+	padding-bottom: 30px;
+}
+
+.contact-text ul li
 {
 	font-family: 'Anonymous Pro', monospace;
 	font-size: 20px;
